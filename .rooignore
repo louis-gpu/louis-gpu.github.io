@@ -1,0 +1,35 @@
+# 密碼與環境變數
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# 套件與建置輸出
+node_modules/
+dist/
+build/
+coverage/
+.next/
+.nuxt/
+
+# 快取與日誌
+.cache/
+.tmp/
+temp/
+*.log
+
+# IDE 與系統檔案
+.DS_Store
+Thumbs.db
+
+# 大型或不需要 AI 讀取的檔案
+*.zip
+*.7z
+*.rar
+*.iso
+*.dmg
+*.exe
